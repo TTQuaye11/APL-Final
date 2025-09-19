@@ -30,5 +30,15 @@ System.out.println("Age - "+ age);
 System.out.println("Height - " + centiHeight + "cm");
 System.out.println("Weight - " + kiloWeight + "kg");
 System.out.println("Number - " + number);
+
+System.out.println(" ");
+
+System.out.println("Current age is" + age);
+age++;
+number--;
+System.out.println(age);
+System.out.println(number);
+
+
     }
 }
