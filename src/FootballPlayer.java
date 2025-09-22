@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 public class FootballPlayer {
     public static void main(String[] args) {
@@ -33,12 +34,33 @@ System.out.println("Number - " + number);
 
 System.out.println(" ");
 
-System.out.println("Current age is" + age);
+System.out.println("Current age is " + age);
 age++;
 number--;
-System.out.println(age);
-System.out.println(number);
+System.out.print("A season has passed, "+ name + "'s age has increased by one and his jersey number has reduced by one." );
+System.out.println("New age: " + age);
+System.out.println("New number: " + number);
 
+System.out.println(" ");
 
+if (age >= 18 && age <= 35){
+    System.out.println("Eligible");
     }
+else {
+    System.out.println("Ineligible");
 }
+
+System.out.println(" ");
+
+if (age < 18 || weight >= 90){
+    System.out.println("Player has a problem (either too young or too heavy)");
+}
+
+System.out.println(" ");
+
+if (age != 18 && age != 35){
+    System.out.println("Not eligible");
+}
+
+
+}}
